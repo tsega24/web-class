@@ -16,8 +16,8 @@ const countdown = () => {
 
   document.getElementByld("days").innerText = days;
   document.getElementByld("hours").innerText = hours;
-  document.getElementByled("minutes").innerText = minutes;
-  document.getElementByled("seconds").innerText = seconds;
+  document.getElementByld("minutes").innerText = minutes;
+  document.getElementByld("seconds").innerText = seconds;
 };
 
 setInterval(countdown, 1000);
